@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Be right back.</title>
-
+        <title>Keepers Youth</title>
+        <link rel="shortcut icon" href="/favicon.ico"/>
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
         <style>
@@ -41,6 +41,9 @@
         <div class="container">
             <div class="content">
                 <div class="title">Próximamente</div>
+                <div class="logo">
+                    <img src="{{ asset('images/logo-keepers-500.jpg') }}" alt="Keeper Youth">
+                </div>
             </div>
         </div>
     </body>
