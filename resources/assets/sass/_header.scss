@@ -1,0 +1,43 @@
+body{
+  min-height: 100vh;
+  background: #8f9578;
+  font-family: 'Raleway','Helvetica', Arial, sans-serif;
+}
+#app{
+  background: black url('/images/backgrounds/teenage-friends-spending-time-together_HYieQVUASo.jpg') top center no-repeat;
+  background-size: cover;
+}
+.header{
+  background: rgba(100,100,100,0.5);
+  min-height: 70vh;
+  .logo{
+    padding: 50px 10px 30px 10px;
+    text-align: center;
+    color: white;
+    h2{
+      font-weight: 600;
+    }
+  }
+  .title{
+    padding: 160px 10px 30px 10px;
+    h1{
+      color: white;
+      font-weight: 600;
+      font-size: 3rem;
+    }
+    h2{
+      color: white;
+    }
+    hr{
+      border-top: 2px solid white;
+      height: 10px;
+      border: 0;
+      box-shadow: 0 10px 10px -10px white inset;
+    }
+  }
+}
+.card-inverse{
+  .card-block{
+    color: white;
+  }
+}
