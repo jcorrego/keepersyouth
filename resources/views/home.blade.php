@@ -18,13 +18,13 @@
                 <div class="col-md-12">
                     <div class="card-deck-wrapper">
                         <div class="card-deck">
-                            <div class="card card-inverse card-blue1">
+                            <div class="card card-inverse card-blue2-trans">
                                 <div class="card-header"><h4 class="card-title">Misión</h4></div>
                                 <div class="card-block ">
                                     <p class="card-text">Formamos y facilitamos “REDES” Recursos básicos y profundos para la Enseñanza, el Discipulado y el Estudio de la Palabra para el ministerio juvenil dentro y fuera de la Iglesia. Nuestra base primordial son las Escrituras.</p>
                                 </div>
                             </div>
-                            <div class="card card-inverse card-blue2">
+                            <div class="card card-inverse card-blue2-trans">
                                 <div class="card-header"><h4 class="card-title">Visión</h4></div>
                                 <div class="card-block">
                                     <p class="card-text">Seremos un ministerio autosostenible, cuya intervención ha facilitado las “REDES” en medio de iglesias, grupos juveniles, colegios y medios audiovisuales en Colombia, Estados Unidos y otros países que así lo requieran. Se reconocerá nuestra profundidad, seriedad y respeto por la Palabra de Dios, además de la pertinencia,accesibilidad y el dinamismo de las herramientas ofrecidas.</p>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <div class="card card-inverse card-red1">
+                    <div class="card card-inverse card-red1-trans">
                         <div class="card-header"><h4 class="card-title">Nuestras metas</h4></div>
                         <div class="card-block">
                             <ul>
@@ -51,7 +51,7 @@
                 <div class="col-md-12">
                     <div class="card-deck-wrapper">
                         <div class="card-deck">
-                            <div class="card card-inverse card-orange2">
+                            <div class="card card-inverse card-orange2-trans">
                                 <div class="card-header"><h4 class="card-title">Áreas de alcance y servicio</h4></div>
                                 <div class="card-block">
                                     <ul>
@@ -62,7 +62,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="card card-inverse card-pink1">
+                            <div class="card card-inverse card-pink1-trans">
                                 <div class="card-header"><h4 class="card-title">Algunos materiales</h4></div>
                                 <div class="card-block">
                                     <ul>

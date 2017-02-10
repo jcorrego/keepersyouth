@@ -4,11 +4,22 @@ body{
   font-family: 'Raleway','Helvetica', Arial, sans-serif;
 }
 #app{
-  background: black url('/images/backgrounds/teenage-friends-spending-time-together_HYieQVUASo.jpg') top center no-repeat;
+  background: url('/images/backgrounds/woman-raising-her-arms-at-sunrise_rQxYnAWlC.jpg') top center no-repeat;
   background-size: cover;
+  &.op1{  background-image: url('/images/backgrounds/a-woman-has-her-arms-lifted-out-in-praise_rXPERC-eR.jpg'); background-size: cover; }
+  &.op2{  background-image: url('/images/backgrounds/a-woman-holds-out-her-hands-in-praise_HX2yACZxR.jpg'); background-size: cover; }
+  &.op3{  background-image: url('/images/backgrounds/a-woman-stands-in-front-of-a-large-bible_rmM60beC.jpg'); background-size: cover; }
+  &.op4{  background-image: url('/images/backgrounds/grunge-background_MJPtPXL_.jpg'); background-size: cover; }
+  &.op5{  background-image: url('/images/backgrounds/teenage-friends-spending-time-together-at-tree_rYxFZDCBo.jpg'); background-size: cover; }
+  &.op6{  background-image: url('/images/backgrounds/teenage-friends-spending-time-together_HFbF-DCSj.jpg'); background-size: cover; }
+  &.op7{  background-image: url('/images/backgrounds/teenage-friends-spending-time-together_HYieQVUASo.jpg'); background-size: cover; }
+  &.op8{  background-image: url('/images/backgrounds/teenage-friends-spending-time-together_rFX_gPAri.jpg'); background-size: cover; }
+  &.op9{  background-image: url('/images/backgrounds/teenage-friends-spending-time-together_rY0rLvArs.jpg'); background-size: cover; }
+  &.op10{  background-image: url('/images/backgrounds/teenage-friends-spending-time-together_SKZlFLwCHs.jpg'); background-size: cover; }
+  &.op11{  background-image: url('/images/backgrounds/woman-raising-her-arms-at-sunrise_rQxYnAWlC.jpg'); background-size: cover; }
 }
 .header{
-  background: rgba(100,100,100,0.5);
+  background: rgba(50,50,50,0.2);
   min-height: 70vh;
   .logo{
     padding: 50px 10px 30px 10px;

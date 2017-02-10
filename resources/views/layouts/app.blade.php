@@ -28,8 +28,7 @@
     </script>
 </head>
 <body>
-
-    <div id="app">
+    <div id="app" class="op{{ request('op')?request('op'): random_int(1,11) }}">
         @yield('content')
     </div>
 
