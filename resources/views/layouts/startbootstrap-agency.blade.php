@@ -156,7 +156,7 @@
 </section>
 
 <section id="goals" class="bg-light-gray">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Nuestras metas</h2>
