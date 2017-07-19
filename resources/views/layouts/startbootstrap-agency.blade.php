@@ -49,8 +49,8 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top" style="padding: 0">
-                <div style="max-width: 50px;">
+            <a class="navbar-brand page-scroll" href="#page-top" style="padding: 0;margin-top: -8px;">
+                <div style="max-width: 65px;">
                 <img src="/images/logos/keepers-200.png" alt="Keepers Youth" class="img-responsive">
                 </div>
             </a>
@@ -164,7 +164,7 @@
                 <br>
             </div>
             @foreach($goals as $goal)
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-2 col-sm-6">
                     <div class="goal">{{ $goal }}</div>
                 </div>
             @endforeach
