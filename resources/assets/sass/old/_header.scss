@@ -1,4 +1,11 @@
-header{
+body{
+  min-height: 100vh;
+  background: #8f9578;
+  font-family: 'Raleway','Helvetica', Arial, sans-serif;
+}
+#app{
+  background: url('/images/backgrounds/woman-raising-her-arms-at-sunrise_rQxYnAWlC.jpg') top center no-repeat;
+  background-size: cover;
   &.op1{  background: url('/images/backgrounds/a-woman-has-her-arms-lifted-out-in-praise_rXPERC-eR.jpg') bottom left no-repeat; background-size: cover; }
   &.op2{  background: url('/images/backgrounds/a-woman-holds-out-her-hands-in-praise_HX2yACZxR.jpg') bottom center no-repeat; background-size: cover; }
   &.op3{  background: url('/images/backgrounds/a-woman-stands-in-front-of-a-large-bible_rmM60beC.jpg') bottom center no-repeat; background-size: cover; }
@@ -10,4 +17,40 @@ header{
   &.op9{  background: url('/images/backgrounds/teenage-friends-spending-time-together_rY0rLvArs.jpg') bottom center no-repeat; background-size: cover; }
   &.op10{  background: url('/images/backgrounds/teenage-friends-spending-time-together_SKZlFLwCHs.jpg') center center no-repeat; background-size: cover; }
   &.op11{  background: url('/images/backgrounds/woman-raising-her-arms-at-sunrise_rQxYnAWlC.jpg') top center no-repeat; background-size: cover; }
+}
+.header{
+  background: rgba(50,50,50,0.2);
+  min-height: 70vh;
+  .logo{
+    padding: 50px 10px 30px 10px;
+    text-align: center;
+    color: white;
+    h2{
+      font-weight: 600;
+    }
+  }
+  .title{
+    padding: 160px 10px 30px 10px;
+    h1{
+      color: white;
+      font-weight: 600;
+      font-size: 3rem;
+    }
+    h2{
+      color: white;
+    }
+    hr{
+      border-top: 2px solid white;
+      height: 10px;
+      border: 0;
+      box-shadow: 0 10px 10px -10px white inset;
+    }
+  }
+}
+.card-inverse{
+  .card-block, .card-text{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 }

@@ -82,4 +82,8 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid">
+        <img src="{{ asset('images/banners/the_good_young_life.jpg') }}" alt="">
+        <p>Este es un seminario y taller bíblico didáctico donde llevamos a los jóvenes y adolescentes a comprender y asumir lo que es el verdadero significado de la juventud. Enfocamos la identidad, el propósito, el lugar del joven en su familia, el manejo de relaciones, sus principales luchas y vacíos entendiendo sus causas y la forma en que pueden ser suplidos por el Señor.  La dinámica y estilo de este seminario - taller permite ver los ejemplos directos de jóvenes y adolescentes en la Biblia en su proceso de vida llevando al participante a identificarse con ellos para comprobar la obra y la intervención del Señor.</p>
+    </div>
 @endsection

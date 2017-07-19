@@ -3,9 +3,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,300,600,700);
 
 // Variables
-@import "variables";
-@import "custom";
-@import "header";
+//@import "variables";
+//@import "custom";
+//@import "header";
 // Bootstrap
 //@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 //@import 'resources/assets/lib/bootstrap-material-design-4.0.2/scss/core';
+@import "materials";
+@import "goals";
+@import "header";
