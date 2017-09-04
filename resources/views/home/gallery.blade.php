@@ -9,7 +9,7 @@
             @foreach($gallery as $image)
                 <div class="col-md-3 col-sm-6">
                     <a class="thumbnail" href="/images/gallery/{{ $image }}" data-lightbox="gallery">
-                        <div style="height:100px;background: url('/images/gallery/{{ $image }}');background-size: cover;"></div>
+                        <div class="thumb-image" style="background: url('/images/gallery/{{ $image }}');"></div>
                     </a>
                 </div>
             @endforeach
