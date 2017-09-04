@@ -32,6 +32,9 @@
                     <a class="page-scroll" href="#materials">Materiales</a>
                 </li>
                 <li>
+                    <a class="page-scroll" href="#gallery">Galería</a>
+                </li>
+                <li>
                     <a class="page-scroll" href="#contact">Contacto</a>
                 </li>
             </ul>

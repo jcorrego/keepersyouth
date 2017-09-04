@@ -11,6 +11,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('css/lightbox.min.css') }}" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -53,6 +54,8 @@
 
 @include('home.materials')
 
+@include('home.gallery')
+
 @include('home.contact')
 
 @include('layouts.partials.footer')
@@ -74,6 +77,7 @@
 
 <!-- Theme JavaScript -->
 <script src="lib/js/agency.min.js"></script>
+<script src="{{ asset('js/lightbox.min.js') }}"></script>
 @include('layouts.partials.analytics')
 </body>
 

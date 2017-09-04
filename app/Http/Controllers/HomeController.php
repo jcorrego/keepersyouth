@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class HomeController extends Controller
 {
@@ -102,6 +103,8 @@ class HomeController extends Controller
           'Ofrecer recursos, materiales y capacitación para el trabajo con los padres en las áreas de desarrollo de la vida de sus hijos.'
         ];
 
-        return view('index', compact('services', 'materials', 'goals'));
+        $gallery = Storage::disk('gallery')->files('./');
+
+        return view('index', compact('services', 'materials', 'goals', 'gallery'));
     }
 }
