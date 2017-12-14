@@ -1,4 +1,14 @@
 #gallery{
+  .thumbnail{
+    .caption{
+      height: 80px;
+      font-family: Raleway;
+      color: #ff8e4d;
+      .details{
+        color: black;
+      }
+    }
+  }
   .thumb-image{
     height:120px;
     background-size: cover !important;

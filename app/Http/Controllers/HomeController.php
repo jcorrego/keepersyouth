@@ -103,7 +103,7 @@ class HomeController extends Controller
           'Ofrecer recursos, materiales y capacitación para el trabajo con los padres en las áreas de desarrollo de la vida de sus hijos.'
         ];
 
-        $gallery = Storage::disk('gallery')->files('./');
+        $gallery = Storage::disk('gallery')->directories('./');
 
         return view('index', compact('services', 'materials', 'goals', 'gallery'));
     }
