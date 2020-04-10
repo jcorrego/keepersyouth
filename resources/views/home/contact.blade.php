@@ -11,7 +11,7 @@
                         </h3>
                     </div>
                     <div class="col-md-6">
-                        <h3 class="" style="color: white;">Visitanos en Facebook:<br>
+                        <h3 class="" style="color: white;">Visítanos en Facebook:<br>
                             <small style="color: white;"><a href="https://www.facebook.com/keepers.youth/" target="_blank">fb.com/keepers.youth</a>
                             </small>
                             <br>
