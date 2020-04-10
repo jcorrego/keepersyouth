@@ -7,8 +7,9 @@
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top" style="padding: 0;margin-top: -8px;">
-                <div style="max-width: 65px;">
+                <div>
                     <img src="/images/logos/keepers-200.png" alt="Keepers Youth" class="img-responsive" style="max-width: 130px;">
+                    <div style="color: white; text-align: center;font-size: 14px; text-shadow: 1px 1px 2px black;">Salmo 119:9</div>
                 </div>
             </a>
         </div>
