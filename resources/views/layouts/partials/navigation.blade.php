@@ -8,7 +8,7 @@
             </button>
             <a class="navbar-brand page-scroll" href="#page-top" style="padding: 0;margin-top: -8px;">
                 <div style="max-width: 65px;">
-                    <img src="/images/logos/keepers-200.png" alt="Keepers Youth" class="img-responsive">
+                    <img src="/images/logos/keepers-200.png" alt="Keepers Youth" class="img-responsive" style="max-width: 130px;">
                 </div>
             </a>
         </div>
