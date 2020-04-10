@@ -6,8 +6,8 @@
                 <h2 class="section-heading">¿Quieres contactarnos?</h2>
                 <div class="row">
                     <div class="col-md-6">
-                        <h3 class="" style="color: white;">Oficina central Bogotá:<br>
-                            <small style="color: white;">Cra 16 No 76-31<br>Tel: 5520777</small>
+                        <h3 class="" style="color: white;">Oficina central Medellín:<br>
+                            <small style="color: white;">Cll 76 # 87-63<br>Nueva vida</small>
                         </h3>
                     </div>
                     <div class="col-md-6">
