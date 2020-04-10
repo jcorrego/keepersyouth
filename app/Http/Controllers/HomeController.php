@@ -72,6 +72,7 @@ class HomeController extends Controller
           'subtitle'    => 'Renovación y Restauración',
           'description' => 'Este es un seminario y taller bíblico didáctico donde llevamos a los jóvenes y adolescentes a comprender y asumir lo que es el verdadero significado de la juventud. Enfocamos la identidad, el propósito, el lugar del joven en su familia, el manejo de relaciones, sus principales luchas y vacíos entendiendo sus causas y la forma en que pueden ser suplidos por el Señor.  La dinámica y estilo de este seminario - taller permite ver los ejemplos directos de jóvenes y adolescentes en la Biblia en su proceso de vida llevando al participante a identificarse con ellos para comprobar la obra y la intervención del Señor.'
         ];
+        $courses   = [];
         $materials   = [];
         $materials[] = [
           'title' => 'Siete aspectos que apagan el Espíritu',
@@ -85,13 +86,13 @@ class HomeController extends Controller
         $materials[] = [
           'title' => 'Tatuajes, pornografía y masturbación ¿Qué dice la Biblia?',
         ];
-        $materials[] = [
+        $courses[] = [
           'title' => 'El ministerio juvenil generacional',
         ];
-        $materials[] = [
+        $courses[] = [
           'title' => 'Cómo ayudar a jóvenes y adolescentes frente al matoneo?',
         ];
-        $materials[] = [
+        $courses[] = [
           'title' => 'El ministerio juvenil transcultural',
         ];
         $goals       = [
@@ -105,6 +106,6 @@ class HomeController extends Controller
 
         $gallery = Storage::disk('gallery')->directories('./');
 
-        return view('index', compact('services', 'materials', 'goals', 'gallery'));
+        return view('index', compact('services', 'materials', 'courses', 'goals', 'gallery'));
     }
 }

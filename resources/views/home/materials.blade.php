@@ -7,12 +7,30 @@
                     liderazgo de jóvenes y adolescentes así como para los mismos jóvenes 
                     contextualizados a sus necesidades y vivencias.</h3>
                 <br>
-            </div>
-            @foreach($materials as $material)
-                <div class="col-md-3 col-sm-6">
-                    @include('materials.summary',['material'=>$material])
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="service-heading">Material para jóvenes</h4>
+                        <div class="row">
+                            @foreach($materials as $material)
+                                <div class="col-sm-6">
+                                    @include('materials.summary',['material'=>$material])
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="service-heading">Ministerio y liderazgo juvenil</h4>
+                        <div class="row">
+                            @foreach($courses as $material)
+                                <div class="col-sm-6">
+                                    @include('materials.summary',['material'=>$material])
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
                 </div>
-            @endforeach
+            </div>
+            
         </div>
     </div>
 </section>
