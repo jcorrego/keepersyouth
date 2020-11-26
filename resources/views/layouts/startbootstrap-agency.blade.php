@@ -37,6 +37,9 @@
             'csrfToken' => csrf_token(),
         ]) !!};
     </script>
+    <!-- ManyChat -->
+    <script src="//widget.manychat.com/1290886477643101.js" async="async"></script>
+
 
 </head>
 
